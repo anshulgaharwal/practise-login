@@ -44,6 +44,7 @@
     background: #bad9ff;
     height: 55px;
     border-radius: 10px;
+    align-items: center;
 }
 
 .input img{
@@ -80,22 +81,26 @@
     color: #fff;
     font-weight: 600;
     margin: 0 auto;
+    cursor: pointer;
 }
 
-.google{
-    background: #fff;
-    width: 75%;
+.gray{
+    background: #949494;
+    color: #fff;
 }
+
 
 .google{
     display: flex;
     height: 48px;
     background: #0058e5;
     border-radius: 25px;
+    width: 75%;
     align-items: center;
     justify-content: center;
     gap: 15px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .google-text{
