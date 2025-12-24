@@ -33,10 +33,8 @@ const LoginForm = () => {
                     <div className="sub">Sign Up</div>
                 </div>
                 <div className="google">
-                    <div className="google-button">
-                        <img src={google_icon} alt="" />
-                        <div className="google-text">Sign In with Google</div>
-                    </div>
+                    <img src={google_icon} alt="" />
+                    <div className="google-text">Sign In with Google</div>
                 </div>
             </div>
         </div>
